@@ -8,3 +8,4 @@ class User(models.Model):
     Email = models.EmailField(max_length=50)
     Contact = models.CharField(max_length=50)
     Password = models.CharField(max_length=50)
+    
